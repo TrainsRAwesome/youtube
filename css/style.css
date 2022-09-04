@@ -25,7 +25,7 @@ h1 {
 }
 
 #topboxtext {
-    padding: 2vh 1vw 0vh 1vw;
+    padding: 0vh 1vw 0vh 1vw;
 }
 
 #smallertext {
@@ -64,15 +64,20 @@ body {
     margin: 0px 0px 0px 0px;
 }
 .socialscontainer {
-    padding: 1vh 1vw 2vh 1vw;
+    padding: 1vh 1vw 0vh 1vw;
 }
 
 #centercontainer {
-    background-color: #000000;
     width: 50vw;
     height: auto;
+}
+
+.markedcontainer {
+    background-color: #000000;
     opacity: 0.8;
     border-radius: 1.5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 ul {
@@ -90,4 +95,8 @@ a {
     color: white;
     text-decoration: none;
     margin: 0px;
+}
+
+#socialsfullcontainer {
+    margin-top: 2vh;
 }
