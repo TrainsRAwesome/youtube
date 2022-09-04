@@ -1,26 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
 
-p {
+* {
+    margin: 0px;
+    padding: 0px;
+    
+  }
+
+pre, p, ul, li {
     font-family: Comfortaa;
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    white-space: pre-wrap;
+}
+
+.socialstext {
+    white-space: default;
 }
 
 h1 {
     font-family: Comfortaa;
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 #topboxtext {
-    padding-top: 2vh;
+    padding: 2vh 1vw 0vh 1vw;
+}
+
+#smallertext {
+    padding: 2vh 1vw 0px 1vw;
+    margin: 0px;
 }
 
 /* set the background image */
@@ -49,10 +59,35 @@ body {
     text-align: center;
 }
 
+.social {
+    padding: 0.3vh 0px 0.3vh 0px;
+    margin: 0px 0px 0px 0px;
+}
+.socialscontainer {
+    padding-top: 1vh;
+}
+
 #centercontainer {
     background-color: #000000;
     width: 50vw;
     height: auto;
     opacity: 0.8;
-    
+    border-radius: 1.5vw;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0px;
 }
