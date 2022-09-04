@@ -10,7 +10,17 @@
 p {
     font-family: Comfortaa;
     color: white;
-    font-size: 2.5vw;
+    font-size: 2vw;
+}
+
+h1 {
+    font-family: Comfortaa;
+    color: white;
+    font-size: 3vw;
+}
+
+#topboxtext {
+    padding-top: 2vh;
 }
 
 /* set the background image */
@@ -28,6 +38,7 @@ body {
     display: inline-block;
     text-align: center;
     max-width: 100%;
+    white-space: pre-wrap;
 }
 
 .center {
@@ -41,7 +52,7 @@ body {
 #centercontainer {
     background-color: #000000;
     width: 50vw;
-    height: 50vh;
+    height: auto;
     opacity: 0.8;
     
 }
