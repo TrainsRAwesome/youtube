@@ -84,8 +84,7 @@ body {
 }
 
 .markedcontainer {
-    background-color: #000000;
-    opacity: 0.8;
+    background-color: rgba(30,30,30,0.6);
     border-radius: 1.5vw;
     padding-top: 2vh;
     padding-bottom: 2vh;
